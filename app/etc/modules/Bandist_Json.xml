@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<config>
+    <modules>
+        <Bandist_Json>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Bandist_Json>
+    </modules>  
+</config>

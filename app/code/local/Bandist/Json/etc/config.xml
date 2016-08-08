@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Bandist_Json>
+            <version>1.0.0</version>
+        </Bandist_Json>
+    </modules>
+    <global>
+        <helpers>
+            <bandist_json>
+                <class>Bandist_Json_Helper</class>
+            </bandist_json>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <bandist_json>
+                <use>standard</use>
+                <args>
+                    <module>Bandist_Json</module>
+                    <frontName>bandist</frontName>
+                </args>
+            </bandist_json>
+        </routers>
+    </frontend>
+</config>
